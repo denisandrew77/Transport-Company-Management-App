@@ -19,4 +19,9 @@
 }
 .upperSection{
 	background-color:#282857;
+	color:white;
+    padding: 20px;
+	font-size: 1.2rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }

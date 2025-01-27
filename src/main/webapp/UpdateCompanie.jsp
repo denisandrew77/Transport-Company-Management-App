@@ -7,9 +7,17 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/AppDesign.css">
+
 </head>
 <body>
-<form:form method="post" 
+	<header class="upperSection"> 
+	Order Management
+		<a href="<c:url value='/curse'/>" class="upperSection">Orders</a>
+		<a href="<c:url value='/companii'/>" class="upperSection">Companies</a>
+		<a href="<c:url value='/vehicule'/>" class="upperSection">Vehicles</a>
+	</header>
+	<form:form method="post" 
 				action="${pageContext.request.contextPath}/companie/update" modelAttribute="companie">
 		
 		<form:input path="companyName" class="form-control"/>
