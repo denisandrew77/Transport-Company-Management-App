@@ -19,23 +19,30 @@
 	</header>
 	<form:form method="post" 
 				action="${pageContext.request.contextPath}/vehicul/update" modelAttribute="vehicul">
-		
+		<label>Plate number</label>
 		<form:input path="plate" class="form-control"/>
-		
+		<br>
+		<label>Phone number 1</label>
 		<form:input path="phoneNumber1" class="form-control"/>
-		
+		<br>
+		<label>Name</label>
 		<form:input path="name" class="form-control"/>
-		
+		<br>
+		<label>Length</label>
 		<form:input path="length" class="form-control"/>
-		
+		<br>
+		<label>Width</label>
 		<form:input path="width" class="form-control"/>
-		
+		<br>
+		<label>Height</label>
 		<form:input path="height" class="form-control"/>
-		
+		<br>
+		<label>Vehicle Type</label>
 		<form:input path="type" class="form-control"/>
-		
+		<br>
+		<label>Phone number 2</label>
 		<form:input path="phoneNumber2" class="form-control"/>
-		
+		<br>
 		<button type="submit">Submit</button>
 	</form:form>
 </body>

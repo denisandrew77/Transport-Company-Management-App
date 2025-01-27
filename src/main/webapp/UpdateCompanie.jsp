@@ -19,14 +19,18 @@
 	</header>
 	<form:form method="post" 
 				action="${pageContext.request.contextPath}/companie/update" modelAttribute="companie">
-		
+		<label>Company Name</label>
 		<form:input path="companyName" class="form-control"/>
-	
+		<br>
+		<label>Location</label>
 		<form:input path="location" class="form-control"/>
-		
+		<br>
+		<label>Contact</label>
 		<form:input path="contact" class="form-control"/>
-		
+		<br>
+		<label>Number of Employees</label>
 		<form:input path="numberOfEmployees" class="form-control"/>
+		<br>
 		
 		<button type="submit">Submit</button>
 	</form:form>

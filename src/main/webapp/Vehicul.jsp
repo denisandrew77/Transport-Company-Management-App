@@ -16,21 +16,40 @@
 		<a href="<c:url value='/companii'/>" class="upperSection">Companies</a>
 		<a href="<c:url value='/vehicule'/>" class="upperSection">Vehicles</a>
 	</header>
-	<c:out value="${vehicul.plate}"></c:out>
-	<br>
-	<c:out value="${vehicul.phoneNumber1}"></c:out>
-	<br>
-	<c:out value="${vehicul.name}"></c:out>
-	<br>
-	<c:out value="${vehicul.length}"></c:out>
-	<br>
-	<c:out value="${vehicul.width}"></c:out>
-	<br>
-	<c:out value="${vehicul.height}"></c:out>
-	<br>
-	<c:out value="${vehicul.type}"></c:out>
-	<br>
-	<c:out value="${vehicul.phoneNumber2}"></c:out>
-	<br>
+	<table class="table">
+	<tr>
+		<th>Details</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td>Plate</td>
+		<td><c:out value="${vehicul.plate}"></c:out></td>
+	</tr>
+	<tr>
+		<td>Phone number 1</td>
+		<td><c:out value="${vehicul.phoneNumber1}"></c:out></td>
+	</tr>
+	<tr>
+		<td>Driver's name</td>
+		<td><c:out value="${vehicul.name}"></c:out></td>
+	</tr>
+	<tr>
+		<td>Length</td>
+		<td><c:out value="${vehicul.length}"></c:out></td>
+	</tr>
+	<tr>
+		<td>Width</td>
+		<td><c:out value="${vehicul.height}"></c:out></td>
+	</tr>
+	<tr>
+		<td>Type</td>
+		<td><c:out value="${vehicul.type}"></c:out></td>
+	</tr>
+	<tr>
+		<td>Phone number 2</td>
+		<td><c:out value="${vehicul.phoneNumber2}"></c:out></td>
+	</tr>
+	</table>
+	<a href='<c:url value="/vehicule"/>'>Exit</a>
 </body>
 </html>

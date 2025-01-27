@@ -25,3 +25,11 @@
     margin-bottom: 10px;
     border-radius: 10px;
 }
+.orderLabels{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.orderContainer{
+	display: flex;
+	flex-direction: row;
+}

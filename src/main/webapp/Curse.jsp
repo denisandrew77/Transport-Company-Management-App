@@ -62,8 +62,6 @@
 		</tr>
 	</c:forEach>
 	</table>
-	<a href="<c:url value='/curse/create'/>">Adauga Cursa</a>
-		<a href="<c:url value='/vehicule/create'/>">Adauga vehicul</a>
-	
+	<a href="<c:url value='/curse/create'/>">Adauga Cursa</a>	
 </body>
 </html>
